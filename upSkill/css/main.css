@@ -89,10 +89,10 @@ header nav ul li:hover .hover_anim{width:100% !important;transition:.3s;}
 .home section{background:#111;color:#fff;}
 .home section .wrap{padding:60px 160px;}
 .home section h1{font-size: 38px;font-weight: 100;text-align:center;}
-.home section h3{font-size: 20px;font-weight: 100;text-align:center;}
+.home section h3{font-size: 20px;font-weight: 100;text-align:center;padding-top:10px;}
 .home section .wrap #solutions{padding:80px 0 0 0;}
 .home section .wrap .section .cardWrap{padding:30px 0;}
-.home section .wrap .section .card{
+.home section .wrap .section .cardWrap .card{
     float:left;
     width:25%;
     height:150px;
@@ -100,7 +100,7 @@ header nav ul li:hover .hover_anim{width:100% !important;transition:.3s;}
     justify-content:center;
     align-items:center;
 }
-.home section .wrap .section .card .wrap{
+.home section .wrap .section .cardWrap .card .wrap{
     width:100%;
     display:flex;
     justify-content:center;
@@ -108,5 +108,18 @@ header nav ul li:hover .hover_anim{width:100% !important;transition:.3s;}
     flex-wrap:wrap;
     padding:unset;
 }
-.home section .wrap .section .card .icon{width:80px;height:80px;background:#0096fe;font-size:36px;border-radius:100%;margin-bottom:10px;cursor:pointer;}
-.home section .wrap .section .card .heading{width:100%;text-align:center;font-size:20px;}
+.home section .wrap .section .cardWrap .card .icon{width:80px;height:80px;background:#0096fe;font-size:36px;border-radius:100%;margin-bottom:10px;cursor:pointer;}
+.home section .wrap .section .cardWrap .card .heading{width:100%;text-align:center;font-size:20px;}
+
+.home section .wrap .section .mediaCardWrap{
+    display:flex;
+    justify-content:space-between;
+    padding:14px 0;
+}
+.home section .wrap .section .mediaCardWrap .card{
+    float: left;
+    width:220px;
+    height:220px;
+    background:bisque;
+    border-radius:10px;
+}
