@@ -122,4 +122,8 @@ header nav ul li:hover .hover_anim{width:100% !important;transition:.3s;}
     height:220px;
     background:bisque;
     border-radius:10px;
+    position:relative;
+}
+.home section .wrap .section .mediaCardWrap .card .wrap{
+    padding:unset;
 }
