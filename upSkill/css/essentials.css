@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* THIS IS A CSS WRITTEN BY ME @BARTHOLOMEW FAVOUR */
+/* OPTIMIZED FOR ALL DEVICES */
+/* contact; Twitter: @favourwright */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+object, embed, video {
+	max-width: 100%;
+}
+.ie6 img {
+	width:100%;
+}
+img{
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+.unselectable{
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.xsmall_radius{border-radius:2px;}
+.small_radius{border-radius:8px;}
+.medium_radius{border-radius:12px;}
+.full_radius{border-radius:50px;}
+.border{border:1px solid;}
+.italics{font-style:italic !important;}
+.flex{display:flex;justify-content:center;align-items:center;}
+.flex_wrap{flex-wrap:wrap;}
+.flex_justify_center{justify-content:center;}
+.flex_align_center{align-items:center;}
+.flex_space_around{justify-content:space-around;}
+.flex_start{justify-content:flex-start;}
+.flex_end{justify-content:flex-end;}
+
+@media (max-width:540px) {
+/*THIS IS FOR MOBILE SCREENS*/
+.mobile_col_1{width:8.33%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_2{width:16.66%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_3{width:25%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_4{width:33.33%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_5{width:41.66%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_6{width:50%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_7{width:58.33%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_8{width:66.66%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_9{width:75%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_10{width:83.33%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_11{width:91.66%;float:left;box-sizing:border-box;display:block;}
+.mobile_col_12{width:100%;float:left;box-sizing:border-box;display:block;}
+}
+
+@media (min-width:541px) and (max-width:768px) {
+/*THIS IS FOR MEDIUM SCREENED DEVICES*/
+.medium_col_1{width:8.33%;float:left;box-sizing:border-box;display:block;}
+.medium_col_2{width:16.66%;float:left;box-sizing:border-box;display:block;}
+.medium_col_3{width:25%;float:left;box-sizing:border-box;display:block;}
+.medium_col_4{width:33.33%;float:left;box-sizing:border-box;display:block;}
+.medium_col_5{width:41.66%;float:left;box-sizing:border-box;display:block;}
+.medium_col_6{width:50%;float:left;box-sizing:border-box;display:block;}
+.medium_col_7{width:58.33%;float:left;box-sizing:border-box;display:block;}
+.medium_col_8{width:66.66%;float:left;box-sizing:border-box;display:block;}
+.medium_col_9{width:75%;float:left;box-sizing:border-box;display:block;}
+.medium_col_10{width:83.33%;float:left;box-sizing:border-box;display:block;}
+.medium_col_11{width:91.66%;float:left;box-sizing:border-box;display:block;}
+.medium_col_12{width:100%;float:left;box-sizing:border-box;display:block;}
+}
+
+@media (min-width:769px) {
+/*THIS IS FOR SCREENS ABOVE MEDIUM DEVICES*/
+.large_col_1{width:8.33%;float:left;box-sizing:border-box;display:block;}
+.large_col_2{width:16.66%;float:left;box-sizing:border-box;display:block;}
+.large_col_3{width:25%;float:left;box-sizing:border-box;display:block;}
+.large_col_4{width:33.33%;float:left;box-sizing:border-box;display:block;}
+.large_col_5{width:41.66%;float:left;box-sizing:border-box;display:block;}
+.large_col_6{width:50%;float:left;box-sizing:border-box;display:block;}
+.large_col_7{width:58.33%;float:left;box-sizing:border-box;display:block;}
+.large_col_8{width:66.66%;float:left;box-sizing:border-box;display:block;}
+.large_col_9{width:75%;float:left;box-sizing:border-box;display:block;}
+.large_col_10{width:83.33%;float:left;box-sizing:border-box;display:block;}
+.large_col_11{width:91.66%;float:left;box-sizing:border-box;display:block;}
+.large_col_12{width:100%;float:left;box-sizing:border-box;display:block;}
+}
+
+/*THIS IS A STRICT COLUMN CSS where str means STRICT*/
+.str_col_1{width:8.33%;float:left;box-sizing:border-box;}
+.str_col_2{width:16.66%;float:left;box-sizing:border-box;}
+.str_col_3{width:25%;float:left;box-sizing:border-box;}
+.str_col_4{width:33.33%;float:left;box-sizing:border-box;}
+.str_col_5{width:41.66%;float:left;box-sizing:border-box;}
+.str_col_6{width:50%;float:left;box-sizing:border-box;}
+.str_col_7{width:58.33%;float:left;box-sizing:border-box;}
+.str_col_8{width:66.66%;float:left;box-sizing:border-box;}
+.str_col_9{width:75%;float:left;box-sizing:border-box;}
+.str_col_10{width:83.33%;float:left;box-sizing:border-box;}
+.str_col_11{width:91.66%;float:left;box-sizing:border-box;}
+.str_col_12{width:100%;float:left;box-sizing:border-box;}
+
+@media (max-width:540px) {
+.hide_small{display:none;}
+}
+@media (min-width:541px) and (max-width:768px) {
+.hide_medium{display:none;}
+}
+@media (min-width:769px) {
+.hide_large{display:none;}
+}
+.abs_a{position:relative;}
+.abs_a a{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
