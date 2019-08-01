@@ -1,5 +1,8 @@
 ::selection{background:rgba(17, 17, 17, 0.1)  !important;}
 ::-moz-selection{background:rgba(17, 17, 17, 0.1)   !important;}
+.divider{float:left;width:100%;padding:20px 0 40px 0;}
+.divider .line{height:1px;background:rgba(255, 255, 255, 0.5);width:25%;}
+
 body{background:#f6f7f9;}
 .site_wrap *{box-sizing:border-box;}
 header{
@@ -87,7 +90,7 @@ header nav ul li:hover .hover_anim{width:100% !important;transition:.3s;}
 .home section .wrap{padding:60px 160px;}
 .home section h1{font-size: 38px;font-weight: 100;text-align:center;}
 .home section h3{font-size: 20px;font-weight: 100;text-align:center;}
-.home section .wrap .section{padding:80px 0 10px 0;}
+.home section .wrap #solutions{padding:80px 0 0 0;}
 .home section .wrap .section .cardWrap{padding:30px 0;}
 .home section .wrap .section .card{
     float:left;
@@ -105,5 +108,5 @@ header nav ul li:hover .hover_anim{width:100% !important;transition:.3s;}
     flex-wrap:wrap;
     padding:unset;
 }
-.home section .wrap .section .card .icon{width:80px;height:80px;background:#0096fe;border-radius:100%;margin-bottom:10px;}
+.home section .wrap .section .card .icon{width:80px;height:80px;background:#0096fe;font-size:36px;border-radius:100%;margin-bottom:10px;cursor:pointer;}
 .home section .wrap .section .card .heading{width:100%;text-align:center;font-size:20px;}
