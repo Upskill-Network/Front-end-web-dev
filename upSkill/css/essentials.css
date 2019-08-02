@@ -119,6 +119,18 @@ img{
 @media (min-width:769px) {
 .hide_large{display:none;}
 }
+.abs{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+.abs_top{bottom:unset;}
+.abs_bottom{top:unset;}
+.abs_right{left:unset;}
+.abs_left{right:unset;}
+
 .abs_a{position:relative;}
 .abs_a a{
 	position:absolute;
