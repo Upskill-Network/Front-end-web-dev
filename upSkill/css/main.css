@@ -356,6 +356,7 @@ header .wraper nav{display:none;}
 .home section .wrap .section .mediaCardWrap .card{margin:0 6% 30px 6% !important;}
 .home section .wrap .section .mediaCardWrap .card .wrap img{height:100%;width:unset;}
 
+.home section .wrap .phone_art{width:100%;text-align:center;}
 .home section .wrap .phone_art img{width:100%;}
 
 }
