@@ -26,13 +26,13 @@ html, body {
 /*///////////////////////////////////////////////////////////////*/
 
 .overlay {
-  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url(/assets/keyboard.jpeg);
+  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url("keyboard.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .overlay-two {
-  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url(/assets/community\ engmt\ 4.jpg);
+  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url("community engmt 4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -137,7 +137,7 @@ html, body {
 
 .jumbotron {
   height: 500px;
-  background-image: url(/assets/slider_3.png);
+  background-image: url("slider_3.png");
   background-size: 600px 500px;
   background-repeat: no-repeat;
   background-color: white;
