@@ -16,16 +16,16 @@
 <body>
     <div class="container-fluid" style="background-color: #0096fa;">
     <div class="container-fluid">
-        <div class="btn-group float-right" role="group" aria-label="Sign Up" style="right: 30px; top: 20px;">
+        <div class="btn-group float-right" role="group" aria-label="Sign Up" style="right: 30px; top: 20px;font-family:'Comfortaa', cursive;">
             <button class="btn btn-secondary" style="background-color: #0096fa; border: 2px solid white;">Sign Up</button>
             <button class="btn btn-secondary" style="background-color: white; color:#0096fa; border: 2px solid white;">Login</button>
         </div>
     </div>
     <a class="navbar-brand" href="#">
-        <img src="logo.svg" height="200px" width="200px">
+        <img src="/logo.svg" height="200px" width="200px">
     </a>
     </div>
-    <header class="container-fluid sticky-top" style="background-color: #0096fa;">
+    <header class="container-fluid sticky-top" style="background-color: #0096fa;font-family:'Comfortaa', cursive;">
     <nav class="navbar navbar-expand-lg" style="box-shadow: none; z-index: 0;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,17 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-home"></i>&nbsp; Home
+                        &nbsp;<i class="fas fa-binoculars"></i>&nbsp; Explore
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-laptop-code"></i>&nbsp; Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-calendar-alt"></i>&nbsp; News & Events
                     </a>
                 </li>
                 <li class="nav-item">
@@ -45,22 +55,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-calendar-alt"></i>&nbsp; Events
+                        &nbsp;<i class="fas fa-paper-plane"></i>&nbsp; Contact Us
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-images"></i>&nbsp; Photos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        &nbsp;<i class="fab fa-youtube"></i>&nbsp; Videos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-cog"></i>&nbsp; Support
+                        &nbsp;<i class="fas fa-play"></i>&nbsp; Get Started
                     </a>
                 </li>
             </ul>
@@ -73,8 +73,8 @@
 <div class="jumbotron" style="margin-bottom: 0%;">
     <div class="container">
     <div class="row">
-        <div class="col-sm-6 btn-holder"></div>
-        <div class="col-sm-6 text-center">
+        <div class="col-sm-6 btn-holder" id="hero"></div>
+        <div class="col-sm-6 text-center" id="hero-sub">
         <br>
         <h2 class="lrn">Learn Skills</h2><br>
         <p class="intro">
@@ -90,79 +90,171 @@
      </div>
 </div>
 
-<div class="container-fluid text-center" style="background-color: #0096fa; padding-bottom: 50px;">
+<div class="overlay">
+<div class="container-fluid text-center" style="padding-bottom: 50px; color: white;font-family:'Comfortaa', cursive;">
     <br><h2>HOW IT WORKS</h2><br>
     <div class="row">
-        <div class="col">
-            <img src="assets/icons1.png" height="30px" width="30px">
-            <img src="assets/community engmt 1.jpg" height="90px" width="100px" style="border-radius: 10px;">
+        <div class="col-sm">
+            <img src="/assets/icons1.png" height="30px" width="30px">
+            <img src="assets/how it works/signup.JPG" height="90px" width="100px" style="border-radius: 10px;">
             <p style="padding-left: 35px;">Sign Up</p>         
         </div>
-        <div class="col">
-            <img src="assets/icons2.png" height="30px" width="30px">
-            <img src="assets/community engmt 1.jpg" height="90px" width="100px" style="border-radius: 10px;">
-            <p>Sign Up</p>
+        <div class="col-sm">
+            <img src="/assets/icons2.png" height="30px" width="30px">
+            <img src="assets/how it works/skill.jpg" height="90px" width="100px" style="border-radius: 10px;">
+            <p style="padding-left: 35px;">Choose a Skill</p>
         </div>
-        <div class="col">
-            <img src="assets/icons3.png" height="30px" width="30px">
-            <img src="assets/community engmt 1.jpg" height="90px" width="100px" style="border-radius: 10px;">
-            <p>Sign Up</p>
+        <div class="col-sm">
+            <img src="/assets/icons3.png" height="30px" width="30px">
+            <img src="assets/how it works/assessment.jpg" height="90px" width="100px" style="border-radius: 10px;">
+            <p style="padding-left: 35px;">Take an Assessment</p>
         </div>
     </div><br>
     <div class="row">
-        <div class="col">
-            <img src="assets/icons4.png" height="30px" width="30px">
-            <img src="assets/community engmt 1.jpg" height="90px" width="100px" style="border-radius: 10px;">
-            <p style="padding-left: 35px;">Sign Up</p>         
+        <div class="col-sm">
+            <img src="/assets/icons4.png" height="30px" width="30px">
+            <img src="assets/how it works/Training.JPG" height="90px" width="100px" style="border-radius: 10px;">
+            <p style="padding-left: 35px;">Complete Training</p>         
         </div>
-        <div class="col">
-            <img src="assets/icons5.png" height="30px" width="30px">
-            <img src="assets/community engmt 1.jpg" height="90px" width="100px" style="border-radius: 10px;">
-            <p>Sign Up</p>
+        <div class="col-sm">
+            <img src="/assets/icons5.png" height="30px" width="30px">
+            <img src="assets/how it works/internship.jpg" height="90px" width="100px" style="border-radius: 10px;">
+            <p style="padding-left: 35px;">Complete Internship</p>
         </div>
-        <div class="col">
-            <img src="assets/icons6.png" height="30px" width="30px">
-            <img src="assets/community engmt 1.jpg" height="90px" width="100px" style="border-radius: 10px;">
-            <p>Sign Up</p>
+        <div class="col-sm">
+            <img src="/assets/icons6.png" height="30px" width="30px">
+            <img src="assets/how it works/connected.jpg" height="90px" width="100px" style="border-radius: 10px;">
+            <p style="padding-left: 35px;">Get Connected</p>
         </div>
     </div><hr style="background-color: white; width: 700px;">
 </div>
 
-<div class="container-fluid text-center justify-content-around" style="background-color: #0096fa;">
-    <br><h2>Skills</h2><br>
-    <div class="row">
-        <div class="col justify-content-around" style="position: relative;vertical-align: middle; height: 150px; width: 150px;">
-            <img src="assets/community engmt 1.jpg" class="img-fluid" style="width: 100%;height: 100%; border-radius: 10px;">
+
+<div class="container-fluid text-center" style="font-family:'Comfortaa', cursive; font-weight: bold;">
+    <br><h2 style="color: white">Skills</h2><br>
+    <div class="flex-container">
+        <div class="skill" style="background-image: url(assets/skills/graphics.jpg)">
             <div class="content">
-                <p>GRAPICS DESIGN</p>
+                <p style="padding-top: 6px;">GRAPICS DESIGN</p>
             </div>
-        </div>
-        <div class="col justify-content-around" style="position: relative;vertical-align: middle;">
-            <img src="assets/community engmt 1.jpg" style="width: 100%;vertical-align: middle; border-radius: 10px;">
+        </div><br>
+        <div class="skill" style="background-image: url(assets/skills/interior.jpg)">
             <div class="content">
-                <p>GRAPICS DESIGN</p>
+                <p style="padding-top: 6px;">INTERIOR DECORATION</p>
             </div>
-        </div>
-        <div class="col justify-content-around" style="position: relative;vertical-align: middle;">
-            <img src="assets/community engmt 1.jpg" style="width: 100%; height: 100%; border-radius: 10px;">
+        </div><br>
+        <div class="skill" style="background-image: url(assets/skills/web.jpg)">
             <div class="content">
-                <p>GRAPICS DESIGN</p>
+                <p style="padding-top: 6px;">WEB DEVELOPMENT</p>
             </div>
-        </div>
-        <div class="col justify-content-around" style="position: relative;vertical-align: middle;">
-            <img src="assets/community engmt 1.jpg" style="width: 100%;vertical-align: middle; border-radius: 10px;">
+        </div><br>
+        <div class="skill" style="background-image: url(assets/skills/ar.jpg)">
             <div class="content">
-                <p>GRAPICS DESIGN</p>
+                <p style="padding-top: 6px;">AR/VR</p>
             </div>
         </div>
     </div>
+    <br>
+    <button type="button" class="btn btn-light" style="border-radius: 30px;color: #0096fa;font-weight: bold;">ALL SKILLS</button>
+    <br><br>
+</div>
+</div>
+
+<div class="container text-center" style="font-family: 'Comfortaa',cursive;">
+    <br><h2>Testimonials</h2><br>
+    <div class="row">
+        <div class="col-sm" style="margin-right: 10px;margin-left: 10px;border-bottom-color: #0096fa; border-style: solid; border-top-color: white; border-left-color: white;border-right-color: white; border-radius: 5px;">
+            <p>
+                <span style="font-style: italic">I had the desire to become an interior decorator but I had no experience or capital
+                Upskill helped me become an interior decorator in 3 months.</span>
+                <br>
+                <span style="font-weight: bold;">-Jane</span>
+            </p>
+        </div>
+        <div class="col-sm" style="margin-right: 10px;margin-left: 10px;border-bottom-color: #0096fa; border-style: solid; border-top-color: white; border-left-color: white;border-right-color: white; border-radius: 5px;">
+            <p>
+                <span style="font-style: italic">Extended reality seemed like magic to me until Upskill came into the picture
+                I am currently developing my second AR/VR game.</span><br>
+                <span style="font-weight: bold;">-Oliver</span>
+            </p>
+        </div>
+        <div class="col-sm" style="margin-right: 10px;margin-left: 10px;border-bottom-color: #0096fa; border-style: solid; border-top-color: white; border-left-color: white;border-right-color: white; border-radius: 5px;">
+            <p>
+                <span style="font-style: italic">I was always ashamed of my designs but now I am a successful UI/UX designer
+                thanks to Upskill.</span><br>
+                <span style="font-weight: bold;">-Charles</span>
+            </p>
+        </div>
+    </div>
+    <br>
+    <button type="button" class="btn btn-primary" style="font-size: 30px;">+</button>
+    <br>
+    <br>
+    <h2>User Experience</h2><br>
+    <div class="row">
+        <div class="col-sm">
+            <img src="assets/user ex/first.JPG" width="200px" height="200px">
+        </div>
+        <div class="col-sm">
+            <img src="assets/user ex/second.JPG" width="200px" height="200px">
+        </div>
+        <div class="col-sm">
+            <img src="assets/user ex/third.jpg" width="200px" height="200px">
+        </div>
+    </div>
+    <br>
+</div>
+
+<div class="container-fluid overlay-two text-center" id="lg-pic" style="font-family: 'Comfortaa',cursive;">
+    <br><br><h2 style="color: white">WHY UPSKILL?</h2><br><br>
+    <div class="row">
+        <div class="col" id="disc">
+            <div>
+                <h5 style="color: white">10% DISCOUNT</h5>
+                <p>When you buy a complete course bundle</p>
+            </div>
+            <div class="custom">
+                <h5 style="color: white">CUSTOMIZABLE</h5>
+                <p>Choose your lessons</p>
+            </div>
+            <div class="versatile">
+                <h5 style="color: white">VERSATILE</h5>
+                <p>Perfect for organizations and individuals</p>
+            </div>
+        </div>
+        <div class="col"><img src="/assets/iphone_v2.png" width="600px" class="v2-eye"></div>
+        <div class="col" id="disc-2">
+            <div>
+                <h5 style="color: white">MICRO-LEARNING</h5>
+                <p>Lessons no longer than 30 minutes</p>
+            </div>
+            <div class="user">
+                <h5 style="color: white">USER-FRIENDLY</h5>
+                <p>Full instructions included</p>
+            </div>
+            <div class="cost">
+                <h5 style="color: white">COST-EFFECTIVE</h5>
+                <p>All for a single one-time payment</p>
+            </div>
+        </div>
+    </div>
+    <br><button type="button" class="btn btn-light" style="border-radius: 30px; color: #0096fa">START LEARNING</button><br><br>
 </div>
 
 
-<footer class="container-fluid text-center" style="background-color: #0096fa; color: white; padding-top: 20px;">
+<div class="container-fluid text-center" style="background-color: #0096fa;font-family: 'Comfortaa',cursive; color: white;">
+    <br><h2>OUR PARTNERS</h2><br>
+    <div class="row">
+        <div class="col-sm"><img src="/assets/british.png" width="100px" height="100px"></div>
+        <div class="col-sm"><img src="/assets/roar.png" width="100px" height="100px"></div>
+        <div class="col-sm"><img src="/assets/fb_opengraph.png" width="100px" height="100px"></div>
+    </div>
+    <br><br>
+</div>
+<footer class="container-fluid text-center" style="background-color: #0096fa; color: white; padding-top: 20px;font-family: 'Comfortaa',cursive;">
         <hr style="background-color: white; width: 700px;">
     <div class="row">
-        <div class="col">
+        <div class="col-sm">
             <h5>ABOUT UPSKILL</h5>
             <hr style="background-color: white; width: 150px;">
             <p>
@@ -170,18 +262,26 @@
                 and connects them to companies where such skills are needed.
             </p>
         </div>
-        <div class="col">
+        <div class="col-sm">
             <h5>CONTACT US</h5>
             <hr style="background-color: white; width: 150px;">
-            <p>Email Us</p>
-            <p>phone number</p>
-            <p>Address</p>
+            <div style="text-align: left;padding-left: 50px;">
+                <p>&nbsp;<i class="fas fa-envelope"></i>&nbsp; Email Us</p>
+                <p>&nbsp;<i class="fas fa-phone"></i>&nbsp; phone number</p>
+                <p>&nbsp;<i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Address</p>
+            </div>
         </div>
-        <div class="col">
+        <div class="col-sm">
             <h5>FOLLOW US</h5>
             <hr style="background-color: white; width: 150px;">
-
+            <i class="fab fa-facebook-f"></i><br><br>
+            <i class="fab fa-instagram"></i><br><br>
+            <i class="fab fa-twitter"></i><br><br>
+            <i class="fab fa-linkedin-in"></i>
         </div>
+    </div>
+    <br><hr style="background-color: white; width: 700px;">
+    <p>Copyright 2019 - Upskill Network</p><br>
 </footer>
 
 <!-- Required script tags for Bootstrap -->

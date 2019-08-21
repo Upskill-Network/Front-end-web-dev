@@ -25,27 +25,16 @@ html, body {
 
 /*///////////////////////////////////////////////////////////////*/
 
-
-/*////////////////////// OPTIONAL STYLES ////////////////////////*/
-
-.bg-fullscreen {
-  background-image: url(https://source.unsplash.com/4000x2500/?fitness);
-  height: 100%;
-  background-position: center;
+.overlay {
+  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url(/assets/keyboard.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.overlay {
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 2;
+
+.overlay-two {
+  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url(/assets/community\ engmt\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .overlay-title {
@@ -136,36 +125,217 @@ html, body {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
 }
 
-.flex-container > div {
-  width: 100px;
-  margin: 10px;
+.flex-container > .skill {
+  height: 150px;
+  width: 200px;
   text-align: center;
-  font-size: 30px;
+  position: relative;
 }
 
 .jumbotron {
   height: 500px;
-  background-image: url(slider_3.png);
+  background-image: url(/assets/slider_3.png);
   background-size: 600px 500px;
   background-repeat: no-repeat;
   background-color: white;
 }
 
 .jumbotron > div {
-  padding-top: 3em;
+  padding: 3em;
 }
 
-.col .content {
+.content {
   position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
+  bottom: 0px;
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1;
+  height: 20%;
   width: 100%;
-  height: 50px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-size: 90%;
+}
+
+.skill {
+  background-size: cover;
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+}
+
+/* WHY UPSKILL SECTION */
+.custom {
+  padding-top: 83px;
+}
+.versatile {
+  padding-top: 83px;
+}
+.user {
+  padding-top: 100px;
+}
+.cost {
+  padding-top: 83px;
+}
+#disc {
+  text-align: right; 
+  padding-top: 170px;
+}
+#disc-2 {
+  text-align: left; 
+  padding-top: 170px;
+}
+
+/*for medium-sized phones */
+@media only screen and (max-width: 414px) {
+  .row > #hero {
+    display: none;
+  }
+  .row > #hero-sub {
+    width: 100%;
+    align-content: center;
+  }
+  .jumbotron {
+    background-image: none;
+  }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .v2-eye {
+    display: none;
+  }
+  #disc {
+    width: 50%;
+    padding-top: 10%;
+    text-align: left;
+  }
+  #disc-2 {
+    width: 50%;
+    padding-top: 10%;
+    text-align: left;
+  }
+  .custom {
+    padding-top: 0%;
+  }
+  .versatile {
+    padding-top: 0%;
+  }
+  .user {
+    padding-top: 0%;
+  }
+  .cost {
+    padding-top: 0%;
+  }
+  
+}
+/* for tablets*/
+@media only screen and (max-width: 768px) and (min-width:  768px) {
+  .row > #hero-sub {
+    width: 100%;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .jumbotron {
+    background-image: none;
+  }
+  .row > #hero {
+    display: none;
+  }
+  .v2-eye {
+    width: 400px;
+    height: 100%;
+  }
+  #disc {
+    width: 20%;
+    padding-top: 10%;
+  }
+  #disc-2 {
+    width: 20%;
+    padding-top: 10%;
+  }
+  .custom {
+    padding-top: 0%;
+  }
+  .versatile {
+    padding-top: 0%;
+  }
+  .user {
+    padding-top: 0%;
+  }
+  .cost {
+    padding-top: 0%;
+  }
+}
+/* for larger screen tablets */
+@media only screen and (max-width: 1024px) {
+  .jumbotron {
+    background-size: 500px 500px;
+  }
+  .custom {
+    padding-top: 20%;
+  }
+  .versatile {
+    padding-top: 30%;
+  }
+  .user {
+    padding-top: 25%;
+  }
+  .cost {
+    padding-top: 25%;
+  }
+}
+/* for XL landscape size */
+@media only screen and (max-width: 823px) {
+  .jumbotron {
+    background-size: 400px 400px;
+    height: 400px;
+  }
+  .jumbotron > div {
+    padding: 0em;
+  }
+
+}
+
+/* for pixel2 landscape */
+@media only screen and (max-width: 823px) {
+  .row > #hero-sub {
+    width: 100%;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .jumbotron {
+    background-image: none;
+  }
+  .row > #hero {
+    display: none;
+  }
+  .v2-eye {
+    width: 400px;
+    height: 100%;
+  }
+  #disc {
+    width: 20%;
+    padding-top: 10%;
+  }
+  #disc-2 {
+    width: 20%;
+    padding-top: 10%;
+  }
+  .custom {
+    padding-top: 0%;
+  }
+  .versatile {
+    padding-top: 0%;
+  }
+  .user {
+    padding-top: 0%;
+  }
+  .cost {
+    padding-top: 0%;
+  }
 }
