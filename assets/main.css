@@ -32,7 +32,7 @@ html, body {
 }
 
 .overlay-two {
-  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url(assets/community\ engmt\ 4.jpg);
+  background: linear-gradient(rgba(0,150,250,0.9), rgba(0,150,250,0.9)), url(assets/community engmt 4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
